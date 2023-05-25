@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pic2web"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:4:5-76
+11-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:4:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:5:5-67
+12-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:5:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /home/ingstevenx/.gradle/caches/transforms-3/2d36cdbeb90dfdfd402f076bef064238/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.pic2web.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /home/ingstevenx/.gradle/caches/transforms-3/2d36cdbeb90dfdfd402f076bef064238/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /home/ingstevenx/.gradle/caches/transforms-3/2d36cdbeb90dfdfd402f076bef064238/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.pic2web.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /home/ingstevenx/.gradle/caches/transforms-3/2d36cdbeb90dfdfd402f076bef064238/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /home/ingstevenx/.gradle/caches/transforms-3/2d36cdbeb90dfdfd402f076bef064238/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:7:5-37:19
+21        android:allowBackup="true"
+21-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /home/ingstevenx/.gradle/caches/transforms-3/2d36cdbeb90dfdfd402f076bef064238/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Pic2Web" >
+32-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:15:9-45
+33        <activity
+33-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:17:9-23:20
+34            android:name="com.example.pic2web.home"
+34-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:18:13-33
+35            android:exported="false" >
+35-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:19:13-37
+36            <meta-data
+36-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:20:13-22:36
+37                android:name="android.app.lib_name"
+37-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:21:17-52
+38                android:value="" />
+38-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:22:17-33
+39        </activity>
+40        <activity
+40-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:24:9-36:20
+41            android:name="com.example.pic2web.MainActivity"
+41-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:25:13-41
+42            android:exported="true" >
+42-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:26:13-36
+43            <intent-filter>
+43-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:27:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:28:17-69
+44-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:30:17-77
+46-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48
+49            <meta-data
+49-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:20:13-22:36
+50                android:name="android.app.lib_name"
+50-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:21:17-52
+51                android:value="" />
+51-->/home/ingstevenx/AndroidStudioProjects/Pic2Web/app/src/main/AndroidManifest.xml:22:17-33
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.pic2web.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] /home/ingstevenx/.gradle/caches/transforms-3/1aadcf4e0f237724308e0370743d8486/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ingstevenx/.gradle/caches/transforms-3/f7d8f15274dd8b4fe8a5f106a508708e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ingstevenx/.gradle/caches/transforms-3/f7d8f15274dd8b4fe8a5f106a508708e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ingstevenx/.gradle/caches/transforms-3/f7d8f15274dd8b4fe8a5f106a508708e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

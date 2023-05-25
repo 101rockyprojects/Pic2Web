@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this,"Iniciando sesión...",Toast.LENGTH_SHORT).show();
                 // Intenta ingresar con el correo y contraseña digitados (revisar funcion login_user mas abajo)
-                login_user("URL");
+                login_user("https://bellaspa.com.co/login-app.php");
             }
         });
     }
