@@ -10,9 +10,15 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 font readexpro
+id btnCamara
+id button
+id editTextTextMultiLine
+id imageView
+id linearLayout2
 id login
 id textView3
 id textView4
+id txtDireccion
 id user_email
 id user_password
 layout activity_home

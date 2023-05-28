@@ -5,43 +5,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="3dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="149dp">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="314dp"
+            android:layout_height="446dp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="55dp" />
 
         <Button
             android:id="@+id/btnCamara"
-            android:layout_width="397dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
             android:layout_gravity="center_horizontal"
-            android:text="Tomar foto" />
+            android:text="Tomar foto"
+            app:cornerRadius="300dp" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
-            android:layout_height="364dp"
-            android:orientation="vertical">
+            android:layout_height="163dp"
+            android:orientation="vertical"
+            android:textAlignment="center">
 
             <TextView
                 android:id="@+id/txtDireccion"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Ubicación"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint='"Me encantaría conocer la historia detrás de tu foto. ¿Podrías brindar una descripción?"'
+                android:inputType="textMultiLine"
+                android:textAlignment="center" />
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Guardar" />
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Guardar"
+                app:cornerRadius="50dp" />
         </LinearLayout>
     </LinearLayout>
 

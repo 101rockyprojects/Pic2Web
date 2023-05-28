@@ -2901,6 +2901,8 @@ int id bounce 0x7f09005e
 int id bounceBoth 0x7f09005f
 int id bounceEnd 0x7f090060
 int id bounceStart 0x7f090061
+int id btnCamara 0x7f0901f1
+int id button 0x7f0901f2
 int id buttonPanel 0x7f090062
 int id cache_measures 0x7f090063
 int id callMeasure 0x7f090064
@@ -2973,6 +2975,7 @@ int id easeIn 0x7f0900a6
 int id easeInOut 0x7f0900a7
 int id easeOut 0x7f0900a8
 int id east 0x7f0900a9
+int id editTextTextMultiLine 0x7f0901f6
 int id edit_query 0x7f0900aa
 int id elastic 0x7f0900ab
 int id embed 0x7f0900ac
@@ -3020,6 +3023,7 @@ int id ifRoom 0x7f0900d5
 int id ignore 0x7f0900d6
 int id ignoreRequest 0x7f0900d7
 int id image 0x7f0900d8
+int id imageView 0x7f0901f3
 int id immediateStop 0x7f0900d9
 int id included 0x7f0900da
 int id indeterminate 0x7f0900db
@@ -3038,6 +3042,7 @@ int id legacy 0x7f0900e7
 int id line1 0x7f0900e8
 int id line3 0x7f0900e9
 int id linear 0x7f0900ea
+int id linearLayout2 0x7f0901f4
 int id listMode 0x7f0900eb
 int id list_item 0x7f0900ec
 int id login 0x7f0900ed
@@ -3275,6 +3280,7 @@ int id transition_position 0x7f0901d4
 int id transition_scene_layoutid_cache 0x7f0901d5
 int id transition_transform 0x7f0901d6
 int id triangle 0x7f0901d7
+int id txtDireccion 0x7f0901f5
 int id unchecked 0x7f0901d8
 int id uniform 0x7f0901d9
 int id unlabeled 0x7f0901da

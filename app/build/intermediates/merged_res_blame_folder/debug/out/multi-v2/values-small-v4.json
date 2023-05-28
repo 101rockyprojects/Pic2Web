@@ -4,7 +4,7 @@
             "outputFile": "com.example.pic2web.app-mergeDebugResources-26:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/ingstevenx/.gradle/caches/transforms-3/eb57593a0436d9518cb6b2ecd8c2078e/transformed/material-1.8.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "C:\\Users\\Robinson\\.gradle\\caches\\transforms-3\\eb57593a0436d9518cb6b2ecd8c2078e\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

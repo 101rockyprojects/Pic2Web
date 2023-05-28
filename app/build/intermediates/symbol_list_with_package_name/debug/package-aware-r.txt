@@ -2902,6 +2902,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnCamara
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2974,6 +2976,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextMultiLine
 id edit_query
 id elastic
 id embed
@@ -3021,6 +3024,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3039,6 +3043,7 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout2
 id listMode
 id list_item
 id login
@@ -3276,6 +3281,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtDireccion
 id unchecked
 id uniform
 id unlabeled
