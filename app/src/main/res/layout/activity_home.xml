@@ -24,13 +24,13 @@
 
         <Button
             android:id="@+id/btnCamara"
-            android:layout_width="100dp"
-            android:layout_height="105dp"
+            android:layout_width="93dp"
+            android:layout_height="101dp"
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/readexpro"
             android:text="Tomar foto"
             android:textColor="#E1DCDC"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:cornerRadius="300dp" />
 
@@ -50,19 +50,20 @@
                 android:hint="Ubicación"
                 android:textAlignment="center"
                 android:textColor="#E1DCDC"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
             <EditText
-                android:id="@+id/editTextTextMultiLine"
+                android:id="@+id/desc"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="83dp"
                 android:ems="10"
                 android:fontFamily="@font/readexpro"
                 android:gravity="start|top"
-                android:hint='"Me encantaría conocer la historia detrás de tu foto. ¿Podrías brindar una descripción?"'
+                android:hint='Agrega una breve descripción'
                 android:inputType="textMultiLine"
                 android:textAlignment="center"
-                android:textColor="#E1DCDC" />
+                android:textColor="#E1DCDC"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/button"

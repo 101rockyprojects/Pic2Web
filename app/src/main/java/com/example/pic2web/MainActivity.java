@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     // Creamos los objetos que vamos a utilizar
     EditText et_email, et_pass;
     Button btn_login;
-    CheckBox keep;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(MainActivity.this,"Hubo un problema al iniciar",Toast.LENGTH_SHORT).show();
-                Log.d("Login",error.getMessage());
             }
         }){
             // Enviar los datos solicitados a través de HashMap

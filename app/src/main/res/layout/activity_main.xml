@@ -16,7 +16,7 @@
         android:layout_marginBottom="280dp"
         android:fontFamily="@font/readexpro"
         android:text="Ingresa un correo"
-        android:textColor="#673AB7"
+        android:textColor="#6F75FE"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
