@@ -86,7 +86,7 @@ public class home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String user_email = save();
-                // id = buscar_por_email("https://bellaspa.com.co/search-app.php?email="+user_email);
+                id = buscar_por_email("https://bellaspa.com.co/search-app.php?email="+user_email);
                 insertarDatos("https://bellaspa.com.co/save-app.php");
             }
 
@@ -187,7 +187,7 @@ public class home extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                // descripcion.setText("EMAIL2"+error.getMessage());
+                descripcion.setText("EMAIL2"+error.getMessage());
                 Toast.makeText(getApplicationContext(), "Error al conectar", Toast.LENGTH_SHORT).show();
             }
         });
